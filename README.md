@@ -51,137 +51,137 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+# App.js
 ```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Haven</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+import './App.css';
 
-        header {
-            background: #333;
-            color: white;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 10px 20px;
-        }
-
-        nav ul {
-            list-style: none;
-            display: flex;
-            gap: 15px;
-            padding: 0;
-            margin: 0;
-        }
-
-        nav ul li {
-            display: inline;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            transition: 0.3s;
-        }
-
-        nav ul li a:hover {
-            background: #555;
-            border-radius: 5px;
-        }
-
-        .section {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 50vh;
-            text-align: center;
-            margin: 10px;
-            padding: 20px;
-            border-radius: 10px;
-            background-color: lightblue;
-        }
-
-        footer {
-            background: #333;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            width: 100%;
-        }
-    </style>
-</head>
-<body>
-    <header>
+function App() {
+  return (
+    <>
+      <header>
         <h1>Tech Haven</h1>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#account">Account</a></li>
-            </ul>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#account">Account</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
 
-    <section id="home" class="section">
+      <section id="home" className="section">
         <h2>Welcome to Tech Haven</h2>
         <p>Your trusted destination for cutting-edge gadgets and services.</p>
-    </section>
+      </section>
 
-    <section id="services" class="section">
+      <section id="services" className="section">
         <h2>Our Offerings</h2>
         <p>Explore a range of premium tech solutions tailored to your needs.</p>
         <ul>
-            <li>Exclusive Discounts</li>
-            <li>Device Trade-in</li>
-            <li>Flexible Payment Plans</li>
-            <li>Special Coupons</li>
+          <li>Exclusive Discounts</li>
+          <li>Device Trade-in</li>
+          <li>Flexible Payment Plans</li>
+          <li>Special Coupons</li>
         </ul>
-    </section>
+      </section>
 
-    <section id="about" class="section">
+      <section id="about" className="section">
         <h2>About Us</h2>
         <p>At Tech Haven, we specialize in providing top-quality electronics and accessories. Our goal is to enhance your digital experience with the latest innovations.</p>
-    </section>
+      </section>
 
-    <section id="contact" class="section">
+      <section id="contact" className="section">
         <h2>Get in Touch</h2>
         <p>Email: support@techhaven.com</p>
         <p>Phone No: 9876543210</p>
         <p>Address: Silicon Tower, Tech Park, Cyber City</p>
         <p>Pincode: 500001</p>
-    </section>
+      </section>
 
-    <section id="account" class="section">
+      <section id="account" className="section">
         <h2>Account Access</h2>
         <p>Sign in to manage your purchases and preferences.</p>
-    </section>
+      </section>
 
-    <footer>
-        <p>&copy; 2025 Tech Haven. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
+      <footer>
+        <p>&copy; Jeslin Gnanasheela M(212222040062)</p>
+      </footer>
+    </>
+  );
+}
+
+export default App;
+
+```
+# App.css
+```
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
 ```
 
-
 ## OUTPUT
-![dhareeneweb2 sc1](https://github.com/user-attachments/assets/eb49eac0-f887-4767-a124-059d39f064ff)
-![dhareeneweb2 sc2](https://github.com/user-attachments/assets/3c6474fc-66c9-452d-9451-f1a2c9598ccd)
-![dhareeneweb2 sc3](https://github.com/user-attachments/assets/97b17311-64c2-44fa-93cf-410cea396e01)
+![ex2 web1](https://github.com/user-attachments/assets/400a88bc-280b-42c6-8514-79e2b8eac3fb)
+![ex2 web2](https://github.com/user-attachments/assets/1aa08111-9d26-4d53-ad0c-d4592d8c58bc)
+![ex2 web3](https://github.com/user-attachments/assets/bf45c224-63b1-4237-a646-46a6bf25eb7b)
+
+
 
 
 
